@@ -1,17 +1,14 @@
 import gymnasium as gym
 import math
 import random
-import matplotlib
 import matplotlib.pyplot as plt
 from collections import namedtuple, deque
 from DQN import DQN
-from itertools import count
 from tqdm import tqdm
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import numpy as np
 import os
 
 MAX_STEPS = 100000
